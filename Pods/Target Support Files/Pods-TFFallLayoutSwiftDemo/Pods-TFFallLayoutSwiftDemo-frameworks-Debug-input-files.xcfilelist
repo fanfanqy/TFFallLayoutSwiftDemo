@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-TFFallLayoutSwiftDemo/Pods-TFFallLayoutSwiftDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/JQQYBase/JQQYBase.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/TFFallLayout/TFFallLayout.framework
+${BUILT_PRODUCTS_DIR}/Then/Then.framework

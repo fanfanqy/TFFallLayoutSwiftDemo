@@ -1,0 +1,1563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05238E5ABFDABDABF2C9A74478338883 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		07246F07E3D3DF1A2676AE908FDD8D74 /* TFFallLayoutHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA6546FF2BBC8F905C8BDF2FCC691B9 /* TFFallLayoutHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07DCA47A45D1E8F255543D4291CA2FC1 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15715D76F9EE2DCBAAA3AB610F38E5B7 /* ConstraintInsetTarget.swift */; };
+		0843139D6902EAF4DDD2EFA3E3555884 /* TFFallLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17524E19958519D4A46C0119337A432E /* TFFallLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08CF4E11D09EEB0C789344607010EDB9 /* TFFallLayoutCompositor.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C10DFD172D458DDE83D567BEDE72DB /* TFFallLayoutCompositor.m */; };
+		0B25CA2F5361A56055144D6419D44A7E /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625E518E8C6D869E1D9093B4E66A928E /* ConstraintOffsetTarget.swift */; };
+		0B36D0B8C82A98D052213BF9D1BFD10E /* JQQYBaseCellAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BF5538716856DC6239C081C4B74EB9 /* JQQYBaseCellAdapter.swift */; };
+		160DF67573B4F58FFA7F61DED5DF9D5D /* TFFallLayoutAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B46305B41FC9B286976446A1570B694 /* TFFallLayoutAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16A11E432272AD25A72141FDEFB53695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		17CD3A0251BCACA3CF50BD4DB7446694 /* TFCollectionViewBaseAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAC0320548F9AFB111083AEA8E54B6 /* TFCollectionViewBaseAdaptor.m */; };
+		17D5CC88ED01B9C4FF004503B35C1CFE /* Then-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DC8347664CE77ADDA29784490035CB /* Then-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1847148475BF1C88E05EDBA0E42B4289 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B895458518A1175BFAFB60E39DC4F2D6 /* ConstraintMaker.swift */; };
+		185071383A97FF3B0AB3A6BA3DBE93AD /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916A4BC858EE01F189A547ACA9A416E9 /* ConstraintMakerRelatable.swift */; };
+		1E1589419683640DC7240A7E91AC55EC /* TFFallEmptyHeaderFooterItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C9EE96D96B4030D2DA8F24B3139F91B6 /* TFFallEmptyHeaderFooterItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2007794B2F848A117D7F0C718A2CA5E4 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E270E96BE920EE0E024B2F279A5D21 /* ConstraintDirectionalInsets.swift */; };
+		212BB5713DD13681FFE62A00229318EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		21D979BA3147F9FB78CCB67FEB87659C /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F9578DA2D8B46B9B3E6058AB1108B0 /* ConstraintViewDSL.swift */; };
+		248DBF2BD0BFF163925F34CE42D1C12A /* TFCollectionViewBaseAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D131794224F527C4C94C88CFF30E75 /* TFCollectionViewBaseAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24AC98413F7C696ABA8420E4DCEE5BCE /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8778BCB9710A86F600D74AE5867026 /* ConstraintItem.swift */; };
+		25A4019ED2524B47E08F47BB513CA3A1 /* TFFallLayoutSectionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ABE67C9BAED16D1EFEC8B00CC7F09A1 /* TFFallLayoutSectionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2640074C6A8C491161DC5A3983EB0913 /* JQQYBasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F0EC859B49A957A5DD5472362DFF2 /* JQQYBasePresenter.swift */; };
+		29C93046CB2B0E56EE1937CAD1A17466 /* TFFallLayoutFlowSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8103F1A2586F0DB203D06C6C9952F9 /* TFFallLayoutFlowSectionItem.m */; };
+		2CF21A36DC07B510623D27FAF81930B6 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBF97FB6DEBCA5ADECCFCB45BEC076D /* ConstraintPriorityTarget.swift */; };
+		37468BDD725C5991F8166DF49DDE4806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3A6361CA86FE5D5F5B3F3789B92D040E /* TFCollectionViewConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = B780B51945EAB6224C145C852A257F0B /* TFCollectionViewConstant.m */; };
+		3C2D5662B75F93BB85982D2A7F407B3B /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E14373BCAF3498D6D8C97BC32F8DEBE /* ConstraintLayoutGuideDSL.swift */; };
+		3EBD702700F7BDE6B29154D020B366FC /* TFCollectionReusableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 872BFD72D9CFBD6C4FC1FB6E9E36C0C4 /* TFCollectionReusableViewItem.m */; };
+		3FAB7032C5829042C0D22762F43BD47F /* TFFallLayoutSectionBaseItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 24054E6B79A86D4BF4E808DCF0484B98 /* TFFallLayoutSectionBaseItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF5CCEA60B4A26FDE24D8387974FBC7 /* TFFallLayoutSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B910402B7DDF23C1E3ABD9A4E424140B /* TFFallLayoutSectionItem.m */; };
+		3FF8DA9D843C76F6464A5A25915B3F56 /* TFFallLayoutZIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = A39BE12EAE9D302DDCC19C0396378187 /* TFFallLayoutZIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4000FAAE9D2A4109D241E59A44E5C0F8 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CE49DE8A049839FB9CD8BA2D01DB6 /* Constraint.swift */; };
+		4070810D05E012E06B83090D7CF4F9DA /* JQQYBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C04D49DC25B57FCFFD32C2DD2FAC2FC4 /* JQQYBase-dummy.m */; };
+		46B902A363502E6D1EE75B8BB494C964 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59F94945E2ACDEF12FEAF8C862CBFE5 /* ConstraintInsets.swift */; };
+		46DE9167762D2480F8E3B5E2920E0BBC /* TFCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AA012F548DCC8AC25403FD263422D607 /* TFCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		471778AC702E636BEB3291CB30E87010 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DB064C4ABAF4605627704748DAD0DC /* SnapKit-dummy.m */; };
+		47C4F9A6EE56DD06E5691B4A3A84905C /* JQQYBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E6FC1F7ACFE24F4C3EE2F6B670449A /* JQQYBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490ADCA6E3818A775E8494AA596D0EF5 /* TFFallEmptyHeaderFooterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C15F1455A367D077E37E7DE1E38D9EDF /* TFFallEmptyHeaderFooterItem.m */; };
+		4BD91886324885DB297F3B5D2D171A69 /* TFFallLayoutColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FC2CCE319977B676065FC03A0297AB /* TFFallLayoutColumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51A2D5FF9CA6641707E6D258C1D85CA3 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BA0B4D739ABA9DC047F60CE80EFB2 /* Typealiases.swift */; };
+		54A6F52E160DB5A6B2CA060B633A3C4E /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D40309454771656FC379C90BF30A181 /* ConstraintDirectionalInsetTarget.swift */; };
+		55BD16F3BF21FA4EEED47A21E94B352B /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF44D3144875767D17626416DC39537 /* LayoutConstraintItem.swift */; };
+		56C51E62D4E57984D7941CD4F24F6C6A /* TFFallLayoutBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E78E348755ED1E355BBF4515A1761 /* TFFallLayoutBackground.m */; };
+		59555F5D638050EEF53DC6CC818E7686 /* TFFallLayoutCompositor.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B80F957276A45171DEA803520310D7 /* TFFallLayoutCompositor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59A4CB8A5F10E739A3E1811845A60742 /* TFFallLayoutConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6304A7407EB73E37F56B5AD5D166459C /* TFFallLayoutConfiguration.m */; };
+		5B3BF7E91A565D2AFD4AD1007A1A149F /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A326554259C22114845F1A50D8D99EB /* ConstraintRelation.swift */; };
+		5BBC0BF7A78DD8086A906DAE7095C8D0 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03EC0BBEA95B84C5F43C13DDBDDFB7 /* ConstraintAttributes.swift */; };
+		5CA0CD58DEC271DD4BD1BD7012DF77B3 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 558D950B6ADA3AE9F13207F347F7127F /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EE360F8AAAD1DB90FD402770CC5D52E /* TFFallLayoutRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 125855339774F9066FC94F98767761EC /* TFFallLayoutRender.m */; };
+		5FC929D58ACF4F7000E0F2401BB78ADB /* TFCollectionViewSectionItemProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B12E6F4535B386C539982D84606CB6AC /* TFCollectionViewSectionItemProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62D46E51CFBFCF47E718D525DE9052A1 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A02466C00F443F3F51EA02E6319B8F /* ConstraintLayoutGuide+Extensions.swift */; };
+		673B226C3A9C999953280BA0DE1D64C2 /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF44C7C18E098CB6968544D79DF690C /* ConstraintMakerPrioritizable.swift */; };
+		6EAD64AF0CC465A6CBE17D75B9E0BF06 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50AE6685C5FB7F184B82C75AC3816DB /* ConstraintLayoutGuide.swift */; };
+		710F699DBC876CD807DB0B1A0423C994 /* TFFallLayoutBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F96A5723149BD4EAD4AD3B02750973 /* TFFallLayoutBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		784C636C3594129666038BD6939D7DC4 /* JQQYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935B2CB8C52418913BA396A4AEF94EB /* JQQYBaseViewController.swift */; };
+		7928BC2A452F4374A9F089BF751EA6A8 /* Pods-TFFallLayoutSwiftDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C57D701DB83C310E1B01308D6BB044 /* Pods-TFFallLayoutSwiftDemo-dummy.m */; };
+		7D1C3EC560BD0B39D46F13D36CAF0C45 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F813543C488D39CCA28931313D82930 /* Then.swift */; };
+		7F7D8617C4A75CD1B2650544D5CE0DF3 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B542E65C843F2D581D74B8E6C89859C7 /* ConstraintConstantTarget.swift */; };
+		818C67C20DC891BD2FAB6FB4CCA5E2AC /* TFFallLayoutFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0336A88DC9ADFC0B3CE360ADCB7A6262 /* TFFallLayoutFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8672992AE291DA67E59980FBA775D87C /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FA77BB1F782C7D13A33D4BC857AB3 /* ConstraintView+Extensions.swift */; };
+		873C9DAE3E7AF409ED1EF23038C4D61A /* TFFallLayoutConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 1366BBCBC44FEA9837200F0A93CEE1D6 /* TFFallLayoutConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89286F1C502A911EAAAD7FDD8CCA4F11 /* Pods-TFFallLayoutSwiftDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 030251D58EF9AAF5B0409ECE8A567A84 /* Pods-TFFallLayoutSwiftDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AF34744FC0E864EBA65923BD813E97 /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A01BBC360646F9B66DFF6908B563E /* ConstraintMakerRelatable+Extensions.swift */; };
+		8E1F48B58976E528DB0F271FC32FC8FB /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341571840F0E579FA6B1812BDDB525D0 /* LayoutConstraint.swift */; };
+		8E41BD6419B27AE82BFDCDD5EBFD7339 /* TFFallLayoutSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C5E13D5A1396A0618CB57025590FBC6 /* TFFallLayoutSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F4485ACD18A96FF64E050DA82B594B1 /* TFFallLayoutFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E999F1D9DBBB288D0375D0B05C2B41BE /* TFFallLayoutFooter.m */; };
+		93053C106F5158805EEDD9C51023656E /* TFFallLayoutLinkageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4F287E848E241CE487B8845524ED9C /* TFFallLayoutLinkageObject.m */; };
+		98D1CCAEB0442C65937DB6F5ACEEC021 /* JQQYBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD0DB80D95A1AB9DE6957A4ED6DA08D /* JQQYBaseCollectionViewCell.swift */; };
+		9DBCDD9CB92542ADF2227CE7B3A637D1 /* TFFallLayoutStick.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D837ED0A757DAF9BF6FED1E25381C /* TFFallLayoutStick.m */; };
+		A08E79E80344A7F020431C26074DFC00 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AEE6BC4116D5BF024C7A4D48850997 /* Debugging.swift */; };
+		AAEF7C327A37AE82E6E99FE7C1CFE8C7 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C2F49BDF201BBB7A3A2192FE02F75E /* ConstraintConfig.swift */; };
+		AB86639F12EC5B888AE463C6AA355C5F /* TFCollectionViewAdaptorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A50DF8171BC18D83A1DDD9228D1D05F1 /* TFCollectionViewAdaptorDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B40C0C4BC2267FC0C437C491B524631A /* TFFallLayoutColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E619EC035E095A6E7EE77A8DB0AA5 /* TFFallLayoutColumn.m */; };
+		B8B3732130B3C8AA991A8FFB370210AE /* TFFallLayoutHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F20C98F17C7034A9477E1D4C60E40 /* TFFallLayoutHeader.m */; };
+		B99905196D7702BBC92B3FA77BAA167E /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B070ABA4537705DD4E109BFEAFB0A9BF /* ConstraintMakerEditable.swift */; };
+		BBDE1278C28662E7C7F258B5E9838ECB /* JQQYBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF640E78420B50518D6F50558085EE /* JQQYBaseViewModel.swift */; };
+		BE950AF3A7E3005D0D60226B50AEFA92 /* JQQYCellItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AAF41A05EF2AFB6CB2CF5CAEE4DCCD /* JQQYCellItemView.swift */; };
+		C5863978B8B1B4DB8A43E494F18DFA3F /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B70E5746D49098369E6685A3467652B /* ConstraintView.swift */; };
+		C63553ED3FBC55B9BED4427A25CF075D /* TFFallLayoutFlowSectionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1156F403528D7FBDF4C40498F8D4E469 /* TFFallLayoutFlowSectionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DB6DD29CA7B35B484DA723A526818E /* TFFallLayoutSectionBaseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E66AA3C46E6CD4BEFE0C330924A5D /* TFFallLayoutSectionBaseItem.m */; };
+		CBEAE17661DBDFCF4B031DD569D78652 /* TFCollectionViewSectionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C79911FE4370EE4CB8F888E4E9665E /* TFCollectionViewSectionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC403B7A0D15F044E3DB79657411C908 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1CF56C0937B9EB6D5DDD0380EF332 /* ConstraintMakerExtendable.swift */; };
+		CC7F0C05D6539B206B2B662BBF9C20DA /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF58CBD0FFD27845B336CF59737925 /* ConstraintLayoutSupportDSL.swift */; };
+		CDC79E1C2AC1CCAD36CE24B1AA4C934F /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6058D85DD16E61F878CA21617CEED65 /* UILayoutSupport+Extensions.swift */; };
+		CDDA1C144B4B69FB0CAADB69A4A26FB4 /* TFCollectionReusableViewItemProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 455E41C9D8273BDFD8AAC016E617A117 /* TFCollectionReusableViewItemProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE6FB0D5BACA88218558C11105402D78 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB572C718B91DF00711727396EE8B5B3 /* ConstraintPriority.swift */; };
+		CF85D7A4EEE1299DA8480C414F7A8024 /* TFFallLayoutLinkageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4617F06A2FE38B79222DEE51A80D97 /* TFFallLayoutLinkageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D19FD18FFA7721834DB0D0982322583B /* TFCollectionReusableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C437B1C1C6ACD28D1A27F5125F552FE /* TFCollectionReusableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D545D171293676CDA00A97DDF469E502 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DC2361D3B6437973DE46FCEA801E2F /* ConstraintRelatableTarget.swift */; };
+		D85C6357AA2EE11DB70DA7719BD1490B /* TFFallLayoutRender.h in Headers */ = {isa = PBXBuildFile; fileRef = D36579D1F0F28985D6ABC4650E79091E /* TFFallLayoutRender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9704E86BBA4882FE859A701A29B4089 /* TFFallLayoutHeaderFile.h in Headers */ = {isa = PBXBuildFile; fileRef = AF195627DF0D5C465CF5D84026CBC82B /* TFFallLayoutHeaderFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F5881C693839F396D968645AD8D59F /* TFCollectionViewConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 1631C68EB55B2D96C567934837E23AB4 /* TFCollectionViewConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB29AF4AAB85607CD493CC8BB35113F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DB70FC523091F98BBECD08AD4830EC7F /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38671AC6568C85D8648D94DC07F0C598 /* ConstraintMakerFinalizable.swift */; };
+		DBE24E2827467CB3654AD0052721A8E4 /* TFFallEmptyHeaderFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B5FC6FE15F832F58E077A83F520166 /* TFFallEmptyHeaderFooterCell.m */; };
+		E12A9262DB84A94D763C13929852ABB0 /* TFFallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 499EC7363E674D15DD7A2FF30BC763DF /* TFFallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1815BE172CB9870B4F80A6C18C746F4 /* TFFallLayoutSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E12DB42D929501A4C71F0E9A91DB0006 /* TFFallLayoutSection.m */; };
+		E37507DC0F6C6843CEC059BF0801DB9E /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961CF366E53552BCC181BB9B78646D0 /* ConstraintLayoutSupport.swift */; };
+		E51C2A581891BF36150AC97E3539562E /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3FCF231DF44DD97B4E9BA2D13C6A00 /* ConstraintMultiplierTarget.swift */; };
+		E5ADBAD70598C5074CFB29D1327E316B /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A9C7ACDA4FD435DE704C1485185BF /* ConstraintDescription.swift */; };
+		E9FF6532CBBF0FEAF554C2FA2E37A84B /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81980CD75C285DB3CF2D67E1271BF9D2 /* ConstraintDSL.swift */; };
+		EBEB116FD3C9FACA87897DEDAFB4C5BE /* TFCollectionViewSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B179150B75E78E7AE37F87787FA5FFD /* TFCollectionViewSectionItem.m */; };
+		ED0178D5900855F565F3140544C82653 /* TFFallLayoutStick.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D08063FE25369A4DD202C5863906D7F /* TFFallLayoutStick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE86099DB3386BBD28658000351C4DA9 /* TFFallLayoutAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB89D492E2AC934EE4BAD416330D76 /* TFFallLayoutAdaptor.m */; };
+		EF5F152FD12588F0E3F899C741A3BD1F /* TFFallEmptyHeaderFooterCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0FE20D5898A10DE9A55BF4DE10BDDC /* TFFallEmptyHeaderFooterCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F09618F13D5619AED34A839C7B3AEB64 /* Then-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BCC5C0BCDF40809074043C52D43D7E /* Then-dummy.m */; };
+		F1B8A4516C40195F37D9EA9C8EFEC30A /* TFFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AA1E976C32DD14430FD10FEEAD0130 /* TFFallLayout.m */; };
+		FC7B13A996C6346C76263FA877BC3658 /* TFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1C61B7D0D278106CC432263BF48E1 /* TFCollectionViewCell.m */; };
+		FCA0B937BF2F101F41F42736BB4268A0 /* TFFallLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBD008E0B04559D845353A57847A57 /* TFFallLayout-dummy.m */; };
+		FFBD490CC01A6852AEE3F1830BF5E073 /* JQQYProjectFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6168E6CFA5989756CD69D7618BE7BC /* JQQYProjectFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1225AD781329459176E851075C875373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		1D506C3B7BA430A7263597396822DA69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D94E91A27DD20ACEDE85A521934DC2;
+			remoteInfo = TFFallLayout;
+		};
+		27D984A1AA92EB9BA47AAC77C17F50BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17AEFC79E770A2906EFAAB1A3757406;
+			remoteInfo = Then;
+		};
+		530F15BEACCB685581C554EE01D3E3F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17AEFC79E770A2906EFAAB1A3757406;
+			remoteInfo = Then;
+		};
+		6A5EEA7B269656650231B4D62416AAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		81E9864DCA78EB21A832EDC002AF28E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D94E91A27DD20ACEDE85A521934DC2;
+			remoteInfo = TFFallLayout;
+		};
+		C870ADA97D1898EA36882D0DCE7B587E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3BD9E63EB052BBB8915B3A9A82A3D20;
+			remoteInfo = JQQYBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A1CF56C0937B9EB6D5DDD0380EF332 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		030251D58EF9AAF5B0409ECE8A567A84 /* Pods-TFFallLayoutSwiftDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFFallLayoutSwiftDemo-umbrella.h"; sourceTree = "<group>"; };
+		0336A88DC9ADFC0B3CE360ADCB7A6262 /* TFFallLayoutFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutFooter.h; path = TFFallLayout/Classes/Core/TFFallLayoutFooter.h; sourceTree = "<group>"; };
+		03BF5538716856DC6239C081C4B74EB9 /* JQQYBaseCellAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JQQYBaseCellAdapter.swift; path = JQQYBase/Classes/JQQYBaseCellAdapter.swift; sourceTree = "<group>"; };
+		03DB064C4ABAF4605627704748DAD0DC /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		0623930C004CFBD9E697E87D0D2DF387 /* TFFallLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TFFallLayout-Info.plist"; sourceTree = "<group>"; };
+		06C10DFD172D458DDE83D567BEDE72DB /* TFFallLayoutCompositor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutCompositor.m; path = TFFallLayout/Classes/Core/TFFallLayoutCompositor.m; sourceTree = "<group>"; };
+		084D1092CA66618C6ABD587DD3F565B0 /* JQQYBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JQQYBase.modulemap; sourceTree = "<group>"; };
+		0BF44C7C18E098CB6968544D79DF690C /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
+		0D8103F1A2586F0DB203D06C6C9952F9 /* TFFallLayoutFlowSectionItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutFlowSectionItem.m; path = TFFallLayout/Classes/SectionItem/TFFallLayoutFlowSectionItem.m; sourceTree = "<group>"; };
+		0F8E619EC035E095A6E7EE77A8DB0AA5 /* TFFallLayoutColumn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutColumn.m; path = TFFallLayout/Classes/Core/TFFallLayoutColumn.m; sourceTree = "<group>"; };
+		1156F403528D7FBDF4C40498F8D4E469 /* TFFallLayoutFlowSectionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutFlowSectionItem.h; path = TFFallLayout/Classes/SectionItem/TFFallLayoutFlowSectionItem.h; sourceTree = "<group>"; };
+		11AA1E976C32DD14430FD10FEEAD0130 /* TFFallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayout.m; path = TFFallLayout/Classes/FallLayout/TFFallLayout.m; sourceTree = "<group>"; };
+		125855339774F9066FC94F98767761EC /* TFFallLayoutRender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutRender.m; path = TFFallLayout/Classes/Core/TFFallLayoutRender.m; sourceTree = "<group>"; };
+		1366BBCBC44FEA9837200F0A93CEE1D6 /* TFFallLayoutConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutConfiguration.h; path = TFFallLayout/Classes/FallLayout/TFFallLayoutConfiguration.h; sourceTree = "<group>"; };
+		15715D76F9EE2DCBAAA3AB610F38E5B7 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		1631C68EB55B2D96C567934837E23AB4 /* TFCollectionViewConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFCollectionViewConstant.h; path = TFFallLayout/Classes/Core/TFCollectionViewConstant.h; sourceTree = "<group>"; };
+		16DC2361D3B6437973DE46FCEA801E2F /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		17524E19958519D4A46C0119337A432E /* TFFallLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFFallLayout-umbrella.h"; sourceTree = "<group>"; };
+		1A326554259C22114845F1A50D8D99EB /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
+		1B70E5746D49098369E6685A3467652B /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
+		2274453DFCE0B2788A9950388C9111D6 /* Pods-TFFallLayoutSwiftDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TFFallLayoutSwiftDemo"; path = Pods_TFFallLayoutSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24054E6B79A86D4BF4E808DCF0484B98 /* TFFallLayoutSectionBaseItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutSectionBaseItem.h; path = TFFallLayout/Classes/SectionItem/TFFallLayoutSectionBaseItem.h; sourceTree = "<group>"; };
+		2621B65CB5F3F8B4749C57530A536F12 /* Then-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Then-Info.plist"; sourceTree = "<group>"; };
+		29DAC0320548F9AFB111083AEA8E54B6 /* TFCollectionViewBaseAdaptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFCollectionViewBaseAdaptor.m; path = TFFallLayout/Classes/Adaptor/TFCollectionViewBaseAdaptor.m; sourceTree = "<group>"; };
+		2E14373BCAF3498D6D8C97BC32F8DEBE /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		30C1CF4555A907F9DD3F52D3D9062C26 /* TFFallLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TFFallLayout.modulemap; sourceTree = "<group>"; };
+		341571840F0E579FA6B1812BDDB525D0 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
+		34837F7DAB5FD04EF5813C273C1104B6 /* JQQYBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JQQYBase.release.xcconfig; sourceTree = "<group>"; };
+		38671AC6568C85D8648D94DC07F0C598 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		39938B6DAA31B16F799C73471CF7E9BE /* TFFallLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TFFallLayout; path = TFFallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAA4FB2A55DB28F54B8079D6B596807 /* Pods-TFFallLayoutSwiftDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFFallLayoutSwiftDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C437B1C1C6ACD28D1A27F5125F552FE /* TFCollectionReusableViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFCollectionReusableViewItem.h; path = TFFallLayout/Classes/CellItem/TFCollectionReusableViewItem.h; sourceTree = "<group>"; };
+		3D3E78E348755ED1E355BBF4515A1761 /* TFFallLayoutBackground.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutBackground.m; path = TFFallLayout/Classes/Core/TFFallLayoutBackground.m; sourceTree = "<group>"; };
+		455E41C9D8273BDFD8AAC016E617A117 /* TFCollectionReusableViewItemProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFCollectionReusableViewItemProtocol.h; path = TFFallLayout/Classes/CellItem/TFCollectionReusableViewItemProtocol.h; sourceTree = "<group>"; };
+		45B5FC6FE15F832F58E077A83F520166 /* TFFallEmptyHeaderFooterCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallEmptyHeaderFooterCell.m; path = TFFallLayout/Classes/CellItem/TFFallEmptyHeaderFooterCell.m; sourceTree = "<group>"; };
+		472BA876201CFAA9E2A2CF332793656D /* Then.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Then.modulemap; sourceTree = "<group>"; };
+		4961CF366E53552BCC181BB9B78646D0 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		499EC7363E674D15DD7A2FF30BC763DF /* TFFallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayout.h; path = TFFallLayout/Classes/FallLayout/TFFallLayout.h; sourceTree = "<group>"; };
+		49EF852D4A31A310FF21C6E2655AB5B1 /* Pods-TFFallLayoutSwiftDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFFallLayoutSwiftDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		4ABB89D492E2AC934EE4BAD416330D76 /* TFFallLayoutAdaptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutAdaptor.m; path = TFFallLayout/Classes/Adaptor/TFFallLayoutAdaptor.m; sourceTree = "<group>"; };
+		4B0FE20D5898A10DE9A55BF4DE10BDDC /* TFFallEmptyHeaderFooterCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallEmptyHeaderFooterCell.h; path = TFFallLayout/Classes/CellItem/TFFallEmptyHeaderFooterCell.h; sourceTree = "<group>"; };
+		4B3D837ED0A757DAF9BF6FED1E25381C /* TFFallLayoutStick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutStick.m; path = TFFallLayout/Classes/Core/TFFallLayoutStick.m; sourceTree = "<group>"; };
+		558D950B6ADA3AE9F13207F347F7127F /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		5A9697EFDC01F5CA09FB13CCBA256EB5 /* Pods-TFFallLayoutSwiftDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFFallLayoutSwiftDemo-frameworks.sh"; sourceTree = "<group>"; };
+		5B179150B75E78E7AE37F87787FA5FFD /* TFCollectionViewSectionItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFCollectionViewSectionItem.m; path = TFFallLayout/Classes/SectionItem/TFCollectionViewSectionItem.m; sourceTree = "<group>"; };
+		5B25409B750C9B0FEBB2C5AE1DA19B60 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		5CBF97FB6DEBCA5ADECCFCB45BEC076D /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		60B24C757F48B99E7226C23C0C48513B /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		625E518E8C6D869E1D9093B4E66A928E /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		62C79911FE4370EE4CB8F888E4E9665E /* TFCollectionViewSectionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFCollectionViewSectionItem.h; path = TFFallLayout/Classes/SectionItem/TFCollectionViewSectionItem.h; sourceTree = "<group>"; };
+		6304A7407EB73E37F56B5AD5D166459C /* TFFallLayoutConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutConfiguration.m; path = TFFallLayout/Classes/FallLayout/TFFallLayoutConfiguration.m; sourceTree = "<group>"; };
+		63A02466C00F443F3F51EA02E6319B8F /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		642E66AA3C46E6CD4BEFE0C330924A5D /* TFFallLayoutSectionBaseItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutSectionBaseItem.m; path = TFFallLayout/Classes/SectionItem/TFFallLayoutSectionBaseItem.m; sourceTree = "<group>"; };
+		64AEE6BC4116D5BF024C7A4D48850997 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Sources/Debugging.swift; sourceTree = "<group>"; };
+		64F96419B2F04A5A169D24E829D22DA0 /* JQQYBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JQQYBase-prefix.pch"; sourceTree = "<group>"; };
+		667CF669615C82A760E9F9721DEEB7A9 /* Pods-TFFallLayoutSwiftDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFFallLayoutSwiftDemo-Info.plist"; sourceTree = "<group>"; };
+		6ABE67C9BAED16D1EFEC8B00CC7F09A1 /* TFFallLayoutSectionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutSectionItem.h; path = TFFallLayout/Classes/SectionItem/TFFallLayoutSectionItem.h; sourceTree = "<group>"; };
+		6BF44D3144875767D17626416DC39537 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Sources/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		6C6168E6CFA5989756CD69D7618BE7BC /* JQQYProjectFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JQQYProjectFile.swift; path = JQQYBase/Classes/JQQYProjectFile.swift; sourceTree = "<group>"; };
+		6D40309454771656FC379C90BF30A181 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		6F813543C488D39CCA28931313D82930 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/Then/Then.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B4617F06A2FE38B79222DEE51A80D97 /* TFFallLayoutLinkageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutLinkageObject.h; path = TFFallLayout/Classes/Core/TFFallLayoutLinkageObject.h; sourceTree = "<group>"; };
+		7B46305B41FC9B286976446A1570B694 /* TFFallLayoutAdaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutAdaptor.h; path = TFFallLayout/Classes/Adaptor/TFFallLayoutAdaptor.h; sourceTree = "<group>"; };
+		7B52B4F0C5AF2E0C8AF5157EC061D84A /* Pods-TFFallLayoutSwiftDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TFFallLayoutSwiftDemo.modulemap"; sourceTree = "<group>"; };
+		81980CD75C285DB3CF2D67E1271BF9D2 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
+		825216AEBFFA77448257D1FF512F6342 /* Then.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.release.xcconfig; sourceTree = "<group>"; };
+		872BFD72D9CFBD6C4FC1FB6E9E36C0C4 /* TFCollectionReusableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFCollectionReusableViewItem.m; path = TFFallLayout/Classes/CellItem/TFCollectionReusableViewItem.m; sourceTree = "<group>"; };
+		8A1F20C98F17C7034A9477E1D4C60E40 /* TFFallLayoutHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutHeader.m; path = TFFallLayout/Classes/Core/TFFallLayoutHeader.m; sourceTree = "<group>"; };
+		8D08063FE25369A4DD202C5863906D7F /* TFFallLayoutStick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutStick.h; path = TFFallLayout/Classes/Core/TFFallLayoutStick.h; sourceTree = "<group>"; };
+		8EFF58CBD0FFD27845B336CF59737925 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		906A9C7ACDA4FD435DE704C1485185BF /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
+		916A4BC858EE01F189A547ACA9A416E9 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		9317E4947CA2FE1B5D5999034C09CCA7 /* Then */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Then; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9549360EB65BF306F99CE357404BE3FC /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
+		954FA77BB1F782C7D13A33D4BC857AB3 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Sources/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DC8347664CE77ADDA29784490035CB /* Then-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-umbrella.h"; sourceTree = "<group>"; };
+		9874FFC3A4D09EB95F092930D88209D5 /* Then.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.debug.xcconfig; sourceTree = "<group>"; };
+		9A3FCF231DF44DD97B4E9BA2D13C6A00 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		9C5E13D5A1396A0618CB57025590FBC6 /* TFFallLayoutSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutSection.h; path = TFFallLayout/Classes/Core/TFFallLayoutSection.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0579099F8E5AEC655F758B1B6639E51 /* JQQYBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JQQYBase-Info.plist"; sourceTree = "<group>"; };
+		A1BCC5C0BCDF40809074043C52D43D7E /* Then-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Then-dummy.m"; sourceTree = "<group>"; };
+		A39BE12EAE9D302DDCC19C0396378187 /* TFFallLayoutZIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutZIndex.h; path = TFFallLayout/Classes/Core/TFFallLayoutZIndex.h; sourceTree = "<group>"; };
+		A3FC2CCE319977B676065FC03A0297AB /* TFFallLayoutColumn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutColumn.h; path = TFFallLayout/Classes/Core/TFFallLayoutColumn.h; sourceTree = "<group>"; };
+		A50DF8171BC18D83A1DDD9228D1D05F1 /* TFCollectionViewAdaptorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFCollectionViewAdaptorDelegate.h; path = TFFallLayout/Classes/Adaptor/TFCollectionViewAdaptorDelegate.h; sourceTree = "<group>"; };
+		A56F0EC859B49A957A5DD5472362DFF2 /* JQQYBasePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JQQYBasePresenter.swift; path = JQQYBase/Classes/JQQYBasePresenter.swift; sourceTree = "<group>"; };
+		A6DBD008E0B04559D845353A57847A57 /* TFFallLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TFFallLayout-dummy.m"; sourceTree = "<group>"; };
+		AA012F548DCC8AC25403FD263422D607 /* TFCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFCollectionViewCell.h; path = TFFallLayout/Classes/CellItem/TFCollectionViewCell.h; sourceTree = "<group>"; };
+		AB572C718B91DF00711727396EE8B5B3 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
+		AD2B432A3C448C009605B837AF1B27D8 /* Pods-TFFallLayoutSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFFallLayoutSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AF195627DF0D5C465CF5D84026CBC82B /* TFFallLayoutHeaderFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutHeaderFile.h; path = TFFallLayout/Classes/TFFallLayoutHeaderFile.h; sourceTree = "<group>"; };
+		AF52CCF92509435E27906132F4AE7479 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		B070ABA4537705DD4E109BFEAFB0A9BF /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Sources/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		B12E6F4535B386C539982D84606CB6AC /* TFCollectionViewSectionItemProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFCollectionViewSectionItemProtocol.h; path = TFFallLayout/Classes/SectionItem/TFCollectionViewSectionItemProtocol.h; sourceTree = "<group>"; };
+		B2E6FC1F7ACFE24F4C3EE2F6B670449A /* JQQYBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JQQYBase-umbrella.h"; sourceTree = "<group>"; };
+		B4ED7535C80A3DBDAF37939E78F57A45 /* JQQYBase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JQQYBase; path = JQQYBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B542E65C843F2D581D74B8E6C89859C7 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		B780B51945EAB6224C145C852A257F0B /* TFCollectionViewConstant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFCollectionViewConstant.m; path = TFFallLayout/Classes/Core/TFCollectionViewConstant.m; sourceTree = "<group>"; };
+		B895458518A1175BFAFB60E39DC4F2D6 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
+		B910402B7DDF23C1E3ABD9A4E424140B /* TFFallLayoutSectionItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutSectionItem.m; path = TFFallLayout/Classes/SectionItem/TFFallLayoutSectionItem.m; sourceTree = "<group>"; };
+		BAFF640E78420B50518D6F50558085EE /* JQQYBaseViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JQQYBaseViewModel.swift; path = JQQYBase/Classes/JQQYBaseViewModel.swift; sourceTree = "<group>"; };
+		BBA6546FF2BBC8F905C8BDF2FCC691B9 /* TFFallLayoutHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutHeader.h; path = TFFallLayout/Classes/Core/TFFallLayoutHeader.h; sourceTree = "<group>"; };
+		BC09DDE7D9CC5F72BDA81A939CF4B6B1 /* TFFallLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFFallLayout.release.xcconfig; sourceTree = "<group>"; };
+		BE03EC0BBEA95B84C5F43C13DDBDDFB7 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		C04D49DC25B57FCFFD32C2DD2FAC2FC4 /* JQQYBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JQQYBase-dummy.m"; sourceTree = "<group>"; };
+		C0AAF41A05EF2AFB6CB2CF5CAEE4DCCD /* JQQYCellItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JQQYCellItemView.swift; path = JQQYBase/Classes/JQQYCellItemView.swift; sourceTree = "<group>"; };
+		C15F1455A367D077E37E7DE1E38D9EDF /* TFFallEmptyHeaderFooterItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallEmptyHeaderFooterItem.m; path = TFFallLayout/Classes/CellItem/TFFallEmptyHeaderFooterItem.m; sourceTree = "<group>"; };
+		C4C1C61B7D0D278106CC432263BF48E1 /* TFCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFCollectionViewCell.m; path = TFFallLayout/Classes/CellItem/TFCollectionViewCell.m; sourceTree = "<group>"; };
+		C55023F1DD82A5FE6BF761AF64A874A6 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		C59F94945E2ACDEF12FEAF8C862CBFE5 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
+		C5C2F49BDF201BBB7A3A2192FE02F75E /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
+		C5C57D701DB83C310E1B01308D6BB044 /* Pods-TFFallLayoutSwiftDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFFallLayoutSwiftDemo-dummy.m"; sourceTree = "<group>"; };
+		C5F96A5723149BD4EAD4AD3B02750973 /* TFFallLayoutBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutBackground.h; path = TFFallLayout/Classes/Core/TFFallLayoutBackground.h; sourceTree = "<group>"; };
+		C7F9578DA2D8B46B9B3E6058AB1108B0 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		C935B2CB8C52418913BA396A4AEF94EB /* JQQYBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JQQYBaseViewController.swift; path = JQQYBase/Classes/JQQYBaseViewController.swift; sourceTree = "<group>"; };
+		C9EE96D96B4030D2DA8F24B3139F91B6 /* TFFallEmptyHeaderFooterItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallEmptyHeaderFooterItem.h; path = TFFallLayout/Classes/CellItem/TFFallEmptyHeaderFooterItem.h; sourceTree = "<group>"; };
+		CD5BA0B4D739ABA9DC047F60CE80EFB2 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
+		D36579D1F0F28985D6ABC4650E79091E /* TFFallLayoutRender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutRender.h; path = TFFallLayout/Classes/Core/TFFallLayoutRender.h; sourceTree = "<group>"; };
+		D50A5398576C73ED827E625ABD13A338 /* JQQYBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JQQYBase.debug.xcconfig; sourceTree = "<group>"; };
+		D50AE6685C5FB7F184B82C75AC3816DB /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		DA4F287E848E241CE487B8845524ED9C /* TFFallLayoutLinkageObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutLinkageObject.m; path = TFFallLayout/Classes/Core/TFFallLayoutLinkageObject.m; sourceTree = "<group>"; };
+		DA8778BCB9710A86F600D74AE5867026 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
+		DD1037CB95B495A212FEA3AE724DB2DD /* Then-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-prefix.pch"; sourceTree = "<group>"; };
+		DF9A01BBC360646F9B66DFF6908B563E /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
+		DFD0DB80D95A1AB9DE6957A4ED6DA08D /* JQQYBaseCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JQQYBaseCollectionViewCell.swift; path = JQQYBase/Classes/JQQYBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		E05A3607B231412387B85B140F7C924A /* TFFallLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFFallLayout-prefix.pch"; sourceTree = "<group>"; };
+		E12DB42D929501A4C71F0E9A91DB0006 /* TFFallLayoutSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutSection.m; path = TFFallLayout/Classes/Core/TFFallLayoutSection.m; sourceTree = "<group>"; };
+		E1834BF6BDC7806916AFC8F886D53FC3 /* TFFallLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFFallLayout.debug.xcconfig; sourceTree = "<group>"; };
+		E1D131794224F527C4C94C88CFF30E75 /* TFCollectionViewBaseAdaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFCollectionViewBaseAdaptor.h; path = TFFallLayout/Classes/Adaptor/TFCollectionViewBaseAdaptor.h; sourceTree = "<group>"; };
+		E3B80F957276A45171DEA803520310D7 /* TFFallLayoutCompositor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFFallLayoutCompositor.h; path = TFFallLayout/Classes/Core/TFFallLayoutCompositor.h; sourceTree = "<group>"; };
+		E583CCB6359580FFEC4682F45EA3D662 /* Pods-TFFallLayoutSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFFallLayoutSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E6058D85DD16E61F878CA21617CEED65 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Sources/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		E6E270E96BE920EE0E024B2F279A5D21 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		E999F1D9DBBB288D0375D0B05C2B41BE /* TFFallLayoutFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFFallLayoutFooter.m; path = TFFallLayout/Classes/Core/TFFallLayoutFooter.m; sourceTree = "<group>"; };
+		FA5CE49DE8A049839FB9CD8BA2D01DB6 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29C4A63FA44BAC1A641B3BE3D2B829EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212BB5713DD13681FFE62A00229318EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305BD7205D4645378CF60523970356E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37468BDD725C5991F8166DF49DDE4806 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B87BC267C5CC1C33C6420B789EAEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05238E5ABFDABDABF2C9A74478338883 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28ADCD1CA8DF2A7C10C56F62F021EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB29AF4AAB85607CD493CC8BB35113F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E108959C5BE4A3DFE0823F91946DB81B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A11E432272AD25A72141FDEFB53695 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10AA45BCE88A39550CAB7A41F4C6D902 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				FA5CE49DE8A049839FB9CD8BA2D01DB6 /* Constraint.swift */,
+				BE03EC0BBEA95B84C5F43C13DDBDDFB7 /* ConstraintAttributes.swift */,
+				C5C2F49BDF201BBB7A3A2192FE02F75E /* ConstraintConfig.swift */,
+				B542E65C843F2D581D74B8E6C89859C7 /* ConstraintConstantTarget.swift */,
+				906A9C7ACDA4FD435DE704C1485185BF /* ConstraintDescription.swift */,
+				E6E270E96BE920EE0E024B2F279A5D21 /* ConstraintDirectionalInsets.swift */,
+				6D40309454771656FC379C90BF30A181 /* ConstraintDirectionalInsetTarget.swift */,
+				81980CD75C285DB3CF2D67E1271BF9D2 /* ConstraintDSL.swift */,
+				C59F94945E2ACDEF12FEAF8C862CBFE5 /* ConstraintInsets.swift */,
+				15715D76F9EE2DCBAAA3AB610F38E5B7 /* ConstraintInsetTarget.swift */,
+				DA8778BCB9710A86F600D74AE5867026 /* ConstraintItem.swift */,
+				D50AE6685C5FB7F184B82C75AC3816DB /* ConstraintLayoutGuide.swift */,
+				63A02466C00F443F3F51EA02E6319B8F /* ConstraintLayoutGuide+Extensions.swift */,
+				2E14373BCAF3498D6D8C97BC32F8DEBE /* ConstraintLayoutGuideDSL.swift */,
+				4961CF366E53552BCC181BB9B78646D0 /* ConstraintLayoutSupport.swift */,
+				8EFF58CBD0FFD27845B336CF59737925 /* ConstraintLayoutSupportDSL.swift */,
+				B895458518A1175BFAFB60E39DC4F2D6 /* ConstraintMaker.swift */,
+				B070ABA4537705DD4E109BFEAFB0A9BF /* ConstraintMakerEditable.swift */,
+				02A1CF56C0937B9EB6D5DDD0380EF332 /* ConstraintMakerExtendable.swift */,
+				38671AC6568C85D8648D94DC07F0C598 /* ConstraintMakerFinalizable.swift */,
+				0BF44C7C18E098CB6968544D79DF690C /* ConstraintMakerPrioritizable.swift */,
+				916A4BC858EE01F189A547ACA9A416E9 /* ConstraintMakerRelatable.swift */,
+				DF9A01BBC360646F9B66DFF6908B563E /* ConstraintMakerRelatable+Extensions.swift */,
+				9A3FCF231DF44DD97B4E9BA2D13C6A00 /* ConstraintMultiplierTarget.swift */,
+				625E518E8C6D869E1D9093B4E66A928E /* ConstraintOffsetTarget.swift */,
+				AB572C718B91DF00711727396EE8B5B3 /* ConstraintPriority.swift */,
+				5CBF97FB6DEBCA5ADECCFCB45BEC076D /* ConstraintPriorityTarget.swift */,
+				16DC2361D3B6437973DE46FCEA801E2F /* ConstraintRelatableTarget.swift */,
+				1A326554259C22114845F1A50D8D99EB /* ConstraintRelation.swift */,
+				1B70E5746D49098369E6685A3467652B /* ConstraintView.swift */,
+				954FA77BB1F782C7D13A33D4BC857AB3 /* ConstraintView+Extensions.swift */,
+				C7F9578DA2D8B46B9B3E6058AB1108B0 /* ConstraintViewDSL.swift */,
+				64AEE6BC4116D5BF024C7A4D48850997 /* Debugging.swift */,
+				341571840F0E579FA6B1812BDDB525D0 /* LayoutConstraint.swift */,
+				6BF44D3144875767D17626416DC39537 /* LayoutConstraintItem.swift */,
+				CD5BA0B4D739ABA9DC047F60CE80EFB2 /* Typealiases.swift */,
+				E6058D85DD16E61F878CA21617CEED65 /* UILayoutSupport+Extensions.swift */,
+				A3CDEF3559CE8C53D9ECF1609C8DD48F /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		23F5EF2AC04CAF0CE228DD2B370DF2A6 /* Then */ = {
+			isa = PBXGroup;
+			children = (
+				6F813543C488D39CCA28931313D82930 /* Then.swift */,
+				8489000BBF9793D36E75899F682C8D22 /* Support Files */,
+			);
+			name = Then;
+			path = Then;
+			sourceTree = "<group>";
+		};
+		25FC517DD84E8561AC96457C6D793F50 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54CAF2C044D36497127A679CFEF9F53D /* Pods-TFFallLayoutSwiftDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3FC91101827F0FD4112CDEC8DDE77B37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30C1CF4555A907F9DD3F52D3D9062C26 /* TFFallLayout.modulemap */,
+				A6DBD008E0B04559D845353A57847A57 /* TFFallLayout-dummy.m */,
+				0623930C004CFBD9E697E87D0D2DF387 /* TFFallLayout-Info.plist */,
+				E05A3607B231412387B85B140F7C924A /* TFFallLayout-prefix.pch */,
+				17524E19958519D4A46C0119337A432E /* TFFallLayout-umbrella.h */,
+				E1834BF6BDC7806916AFC8F886D53FC3 /* TFFallLayout.debug.xcconfig */,
+				BC09DDE7D9CC5F72BDA81A939CF4B6B1 /* TFFallLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TFFallLayout";
+			sourceTree = "<group>";
+		};
+		4912B44AB8B390575E37B31854C6CDA3 /* TFFallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3C437B1C1C6ACD28D1A27F5125F552FE /* TFCollectionReusableViewItem.h */,
+				872BFD72D9CFBD6C4FC1FB6E9E36C0C4 /* TFCollectionReusableViewItem.m */,
+				455E41C9D8273BDFD8AAC016E617A117 /* TFCollectionReusableViewItemProtocol.h */,
+				A50DF8171BC18D83A1DDD9228D1D05F1 /* TFCollectionViewAdaptorDelegate.h */,
+				E1D131794224F527C4C94C88CFF30E75 /* TFCollectionViewBaseAdaptor.h */,
+				29DAC0320548F9AFB111083AEA8E54B6 /* TFCollectionViewBaseAdaptor.m */,
+				AA012F548DCC8AC25403FD263422D607 /* TFCollectionViewCell.h */,
+				C4C1C61B7D0D278106CC432263BF48E1 /* TFCollectionViewCell.m */,
+				1631C68EB55B2D96C567934837E23AB4 /* TFCollectionViewConstant.h */,
+				B780B51945EAB6224C145C852A257F0B /* TFCollectionViewConstant.m */,
+				62C79911FE4370EE4CB8F888E4E9665E /* TFCollectionViewSectionItem.h */,
+				5B179150B75E78E7AE37F87787FA5FFD /* TFCollectionViewSectionItem.m */,
+				B12E6F4535B386C539982D84606CB6AC /* TFCollectionViewSectionItemProtocol.h */,
+				4B0FE20D5898A10DE9A55BF4DE10BDDC /* TFFallEmptyHeaderFooterCell.h */,
+				45B5FC6FE15F832F58E077A83F520166 /* TFFallEmptyHeaderFooterCell.m */,
+				C9EE96D96B4030D2DA8F24B3139F91B6 /* TFFallEmptyHeaderFooterItem.h */,
+				C15F1455A367D077E37E7DE1E38D9EDF /* TFFallEmptyHeaderFooterItem.m */,
+				499EC7363E674D15DD7A2FF30BC763DF /* TFFallLayout.h */,
+				11AA1E976C32DD14430FD10FEEAD0130 /* TFFallLayout.m */,
+				7B46305B41FC9B286976446A1570B694 /* TFFallLayoutAdaptor.h */,
+				4ABB89D492E2AC934EE4BAD416330D76 /* TFFallLayoutAdaptor.m */,
+				C5F96A5723149BD4EAD4AD3B02750973 /* TFFallLayoutBackground.h */,
+				3D3E78E348755ED1E355BBF4515A1761 /* TFFallLayoutBackground.m */,
+				A3FC2CCE319977B676065FC03A0297AB /* TFFallLayoutColumn.h */,
+				0F8E619EC035E095A6E7EE77A8DB0AA5 /* TFFallLayoutColumn.m */,
+				E3B80F957276A45171DEA803520310D7 /* TFFallLayoutCompositor.h */,
+				06C10DFD172D458DDE83D567BEDE72DB /* TFFallLayoutCompositor.m */,
+				1366BBCBC44FEA9837200F0A93CEE1D6 /* TFFallLayoutConfiguration.h */,
+				6304A7407EB73E37F56B5AD5D166459C /* TFFallLayoutConfiguration.m */,
+				1156F403528D7FBDF4C40498F8D4E469 /* TFFallLayoutFlowSectionItem.h */,
+				0D8103F1A2586F0DB203D06C6C9952F9 /* TFFallLayoutFlowSectionItem.m */,
+				0336A88DC9ADFC0B3CE360ADCB7A6262 /* TFFallLayoutFooter.h */,
+				E999F1D9DBBB288D0375D0B05C2B41BE /* TFFallLayoutFooter.m */,
+				BBA6546FF2BBC8F905C8BDF2FCC691B9 /* TFFallLayoutHeader.h */,
+				8A1F20C98F17C7034A9477E1D4C60E40 /* TFFallLayoutHeader.m */,
+				AF195627DF0D5C465CF5D84026CBC82B /* TFFallLayoutHeaderFile.h */,
+				7B4617F06A2FE38B79222DEE51A80D97 /* TFFallLayoutLinkageObject.h */,
+				DA4F287E848E241CE487B8845524ED9C /* TFFallLayoutLinkageObject.m */,
+				D36579D1F0F28985D6ABC4650E79091E /* TFFallLayoutRender.h */,
+				125855339774F9066FC94F98767761EC /* TFFallLayoutRender.m */,
+				9C5E13D5A1396A0618CB57025590FBC6 /* TFFallLayoutSection.h */,
+				E12DB42D929501A4C71F0E9A91DB0006 /* TFFallLayoutSection.m */,
+				24054E6B79A86D4BF4E808DCF0484B98 /* TFFallLayoutSectionBaseItem.h */,
+				642E66AA3C46E6CD4BEFE0C330924A5D /* TFFallLayoutSectionBaseItem.m */,
+				6ABE67C9BAED16D1EFEC8B00CC7F09A1 /* TFFallLayoutSectionItem.h */,
+				B910402B7DDF23C1E3ABD9A4E424140B /* TFFallLayoutSectionItem.m */,
+				8D08063FE25369A4DD202C5863906D7F /* TFFallLayoutStick.h */,
+				4B3D837ED0A757DAF9BF6FED1E25381C /* TFFallLayoutStick.m */,
+				A39BE12EAE9D302DDCC19C0396378187 /* TFFallLayoutZIndex.h */,
+				3FC91101827F0FD4112CDEC8DDE77B37 /* Support Files */,
+			);
+			name = TFFallLayout;
+			path = TFFallLayout;
+			sourceTree = "<group>";
+		};
+		4AD2B5C98733216A1028FD54DCD30971 /* JQQYBase */ = {
+			isa = PBXGroup;
+			children = (
+				03BF5538716856DC6239C081C4B74EB9 /* JQQYBaseCellAdapter.swift */,
+				DFD0DB80D95A1AB9DE6957A4ED6DA08D /* JQQYBaseCollectionViewCell.swift */,
+				A56F0EC859B49A957A5DD5472362DFF2 /* JQQYBasePresenter.swift */,
+				C935B2CB8C52418913BA396A4AEF94EB /* JQQYBaseViewController.swift */,
+				BAFF640E78420B50518D6F50558085EE /* JQQYBaseViewModel.swift */,
+				C0AAF41A05EF2AFB6CB2CF5CAEE4DCCD /* JQQYCellItemView.swift */,
+				6C6168E6CFA5989756CD69D7618BE7BC /* JQQYProjectFile.swift */,
+				D3CA4B1E47BF3BF243030596EABB7B4F /* Support Files */,
+			);
+			name = JQQYBase;
+			path = JQQYBase;
+			sourceTree = "<group>";
+		};
+		54CAF2C044D36497127A679CFEF9F53D /* Pods-TFFallLayoutSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7B52B4F0C5AF2E0C8AF5157EC061D84A /* Pods-TFFallLayoutSwiftDemo.modulemap */,
+				3AAA4FB2A55DB28F54B8079D6B596807 /* Pods-TFFallLayoutSwiftDemo-acknowledgements.markdown */,
+				49EF852D4A31A310FF21C6E2655AB5B1 /* Pods-TFFallLayoutSwiftDemo-acknowledgements.plist */,
+				C5C57D701DB83C310E1B01308D6BB044 /* Pods-TFFallLayoutSwiftDemo-dummy.m */,
+				5A9697EFDC01F5CA09FB13CCBA256EB5 /* Pods-TFFallLayoutSwiftDemo-frameworks.sh */,
+				667CF669615C82A760E9F9721DEEB7A9 /* Pods-TFFallLayoutSwiftDemo-Info.plist */,
+				030251D58EF9AAF5B0409ECE8A567A84 /* Pods-TFFallLayoutSwiftDemo-umbrella.h */,
+				E583CCB6359580FFEC4682F45EA3D662 /* Pods-TFFallLayoutSwiftDemo.debug.xcconfig */,
+				AD2B432A3C448C009605B837AF1B27D8 /* Pods-TFFallLayoutSwiftDemo.release.xcconfig */,
+			);
+			name = "Pods-TFFallLayoutSwiftDemo";
+			path = "Target Support Files/Pods-TFFallLayoutSwiftDemo";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8489000BBF9793D36E75899F682C8D22 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				472BA876201CFAA9E2A2CF332793656D /* Then.modulemap */,
+				A1BCC5C0BCDF40809074043C52D43D7E /* Then-dummy.m */,
+				2621B65CB5F3F8B4749C57530A536F12 /* Then-Info.plist */,
+				DD1037CB95B495A212FEA3AE724DB2DD /* Then-prefix.pch */,
+				97DC8347664CE77ADDA29784490035CB /* Then-umbrella.h */,
+				9874FFC3A4D09EB95F092930D88209D5 /* Then.debug.xcconfig */,
+				825216AEBFFA77448257D1FF512F6342 /* Then.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Then";
+			sourceTree = "<group>";
+		};
+		871EA63C5FA1EDA0F3C0F1F91D36252C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AD2B5C98733216A1028FD54DCD30971 /* JQQYBase */,
+				10AA45BCE88A39550CAB7A41F4C6D902 /* SnapKit */,
+				4912B44AB8B390575E37B31854C6CDA3 /* TFFallLayout */,
+				23F5EF2AC04CAF0CE228DD2B370DF2A6 /* Then */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		956EE97BCC8C4292E120B1D9C8156FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED7535C80A3DBDAF37939E78F57A45 /* JQQYBase */,
+				2274453DFCE0B2788A9950388C9111D6 /* Pods-TFFallLayoutSwiftDemo */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
+				39938B6DAA31B16F799C73471CF7E9BE /* TFFallLayout */,
+				9317E4947CA2FE1B5D5999034C09CCA7 /* Then */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3CDEF3559CE8C53D9ECF1609C8DD48F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF52CCF92509435E27906132F4AE7479 /* SnapKit.modulemap */,
+				03DB064C4ABAF4605627704748DAD0DC /* SnapKit-dummy.m */,
+				C55023F1DD82A5FE6BF761AF64A874A6 /* SnapKit-Info.plist */,
+				5B25409B750C9B0FEBB2C5AE1DA19B60 /* SnapKit-prefix.pch */,
+				558D950B6ADA3AE9F13207F347F7127F /* SnapKit-umbrella.h */,
+				60B24C757F48B99E7226C23C0C48513B /* SnapKit.debug.xcconfig */,
+				9549360EB65BF306F99CE357404BE3FC /* SnapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				871EA63C5FA1EDA0F3C0F1F91D36252C /* Pods */,
+				956EE97BCC8C4292E120B1D9C8156FAC /* Products */,
+				25FC517DD84E8561AC96457C6D793F50 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3CA4B1E47BF3BF243030596EABB7B4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				084D1092CA66618C6ABD587DD3F565B0 /* JQQYBase.modulemap */,
+				C04D49DC25B57FCFFD32C2DD2FAC2FC4 /* JQQYBase-dummy.m */,
+				A0579099F8E5AEC655F758B1B6639E51 /* JQQYBase-Info.plist */,
+				64F96419B2F04A5A169D24E829D22DA0 /* JQQYBase-prefix.pch */,
+				B2E6FC1F7ACFE24F4C3EE2F6B670449A /* JQQYBase-umbrella.h */,
+				D50A5398576C73ED827E625ABD13A338 /* JQQYBase.debug.xcconfig */,
+				34837F7DAB5FD04EF5813C273C1104B6 /* JQQYBase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JQQYBase";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24317CCF9508088116234129C6881E6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D5CC88ED01B9C4FF004503B35C1CFE /* Then-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		477B3D9504361A1DC87416CF1651D025 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89286F1C502A911EAAAD7FDD8CCA4F11 /* Pods-TFFallLayoutSwiftDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FBB57B9BD281966DF558FDDA05B56C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19FD18FFA7721834DB0D0982322583B /* TFCollectionReusableViewItem.h in Headers */,
+				CDDA1C144B4B69FB0CAADB69A4A26FB4 /* TFCollectionReusableViewItemProtocol.h in Headers */,
+				AB86639F12EC5B888AE463C6AA355C5F /* TFCollectionViewAdaptorDelegate.h in Headers */,
+				248DBF2BD0BFF163925F34CE42D1C12A /* TFCollectionViewBaseAdaptor.h in Headers */,
+				46DE9167762D2480F8E3B5E2920E0BBC /* TFCollectionViewCell.h in Headers */,
+				D9F5881C693839F396D968645AD8D59F /* TFCollectionViewConstant.h in Headers */,
+				CBEAE17661DBDFCF4B031DD569D78652 /* TFCollectionViewSectionItem.h in Headers */,
+				5FC929D58ACF4F7000E0F2401BB78ADB /* TFCollectionViewSectionItemProtocol.h in Headers */,
+				EF5F152FD12588F0E3F899C741A3BD1F /* TFFallEmptyHeaderFooterCell.h in Headers */,
+				1E1589419683640DC7240A7E91AC55EC /* TFFallEmptyHeaderFooterItem.h in Headers */,
+				E12A9262DB84A94D763C13929852ABB0 /* TFFallLayout.h in Headers */,
+				0843139D6902EAF4DDD2EFA3E3555884 /* TFFallLayout-umbrella.h in Headers */,
+				160DF67573B4F58FFA7F61DED5DF9D5D /* TFFallLayoutAdaptor.h in Headers */,
+				710F699DBC876CD807DB0B1A0423C994 /* TFFallLayoutBackground.h in Headers */,
+				4BD91886324885DB297F3B5D2D171A69 /* TFFallLayoutColumn.h in Headers */,
+				59555F5D638050EEF53DC6CC818E7686 /* TFFallLayoutCompositor.h in Headers */,
+				873C9DAE3E7AF409ED1EF23038C4D61A /* TFFallLayoutConfiguration.h in Headers */,
+				C63553ED3FBC55B9BED4427A25CF075D /* TFFallLayoutFlowSectionItem.h in Headers */,
+				818C67C20DC891BD2FAB6FB4CCA5E2AC /* TFFallLayoutFooter.h in Headers */,
+				07246F07E3D3DF1A2676AE908FDD8D74 /* TFFallLayoutHeader.h in Headers */,
+				D9704E86BBA4882FE859A701A29B4089 /* TFFallLayoutHeaderFile.h in Headers */,
+				CF85D7A4EEE1299DA8480C414F7A8024 /* TFFallLayoutLinkageObject.h in Headers */,
+				D85C6357AA2EE11DB70DA7719BD1490B /* TFFallLayoutRender.h in Headers */,
+				8E41BD6419B27AE82BFDCDD5EBFD7339 /* TFFallLayoutSection.h in Headers */,
+				3FAB7032C5829042C0D22762F43BD47F /* TFFallLayoutSectionBaseItem.h in Headers */,
+				25A4019ED2524B47E08F47BB513CA3A1 /* TFFallLayoutSectionItem.h in Headers */,
+				ED0178D5900855F565F3140544C82653 /* TFFallLayoutStick.h in Headers */,
+				3FF8DA9D843C76F6464A5A25915B3F56 /* TFFallLayoutZIndex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7801D0CD6DF3E5FE0FB602128E2D2511 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA0CD58DEC271DD4BD1BD7012DF77B3 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C3B33E16AEB24ECB309EE9C88E20A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C4F9A6EE56DD06E5691B4A3A84905C /* JQQYBase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D43F4653E7041A0BA458CC3C3B50726 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				7801D0CD6DF3E5FE0FB602128E2D2511 /* Headers */,
+				0F7CF393A2D6511D69351DF45639AF71 /* Sources */,
+				45B87BC267C5CC1C33C6420B789EAEB1 /* Frameworks */,
+				078A6474573578AC876FCB45C7F6C320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		C17AEFC79E770A2906EFAAB1A3757406 /* Then */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5125255DC14C9AE562348356168C0D7 /* Build configuration list for PBXNativeTarget "Then" */;
+			buildPhases = (
+				24317CCF9508088116234129C6881E6A /* Headers */,
+				4D196CBB751C6905636AB3DABC48AC32 /* Sources */,
+				305BD7205D4645378CF60523970356E9 /* Frameworks */,
+				6DC8FC932CAA340C341F8C72D3E53AC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Then;
+			productName = Then;
+			productReference = 9317E4947CA2FE1B5D5999034C09CCA7 /* Then */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3BD9E63EB052BBB8915B3A9A82A3D20 /* JQQYBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3726A93708D9FC68E975BF5F9F54B8 /* Build configuration list for PBXNativeTarget "JQQYBase" */;
+			buildPhases = (
+				86C3B33E16AEB24ECB309EE9C88E20A6 /* Headers */,
+				23F7B49870CB5E0102EA08EABDE4A12A /* Sources */,
+				A28ADCD1CA8DF2A7C10C56F62F021EA1 /* Frameworks */,
+				D3E92B80D89892192BEF381721E2C61C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97BBE435BFA91326779593AAC7B584D5 /* PBXTargetDependency */,
+				34D2AA44D1C049D6D00D563B09D5506A /* PBXTargetDependency */,
+				5C0F4CF6E3883EC60B8DE0792FC82C88 /* PBXTargetDependency */,
+			);
+			name = JQQYBase;
+			productName = JQQYBase;
+			productReference = B4ED7535C80A3DBDAF37939E78F57A45 /* JQQYBase */;
+			productType = "com.apple.product-type.framework";
+		};
+		E91CB10AF111B6100FA67204C6004AD2 /* Pods-TFFallLayoutSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC728792F67AB818E0E69B3DD341D2A /* Build configuration list for PBXNativeTarget "Pods-TFFallLayoutSwiftDemo" */;
+			buildPhases = (
+				477B3D9504361A1DC87416CF1651D025 /* Headers */,
+				5E9CC65CAD2A9E6E8D5A4C3BF97C3DB2 /* Sources */,
+				E108959C5BE4A3DFE0823F91946DB81B /* Frameworks */,
+				A1BAF787D83C4851916418A099F4BD16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33C847B68B325AA79C0501CB5CF66E51 /* PBXTargetDependency */,
+				68CEAF7AE49EFB97E0DC4FA7EE213C66 /* PBXTargetDependency */,
+				64820F5F5D51C0959DE7EF111CCBCAE6 /* PBXTargetDependency */,
+				B123A22CB1AB6A66512B249F2B8ED41E /* PBXTargetDependency */,
+			);
+			name = "Pods-TFFallLayoutSwiftDemo";
+			productName = Pods_TFFallLayoutSwiftDemo;
+			productReference = 2274453DFCE0B2788A9950388C9111D6 /* Pods-TFFallLayoutSwiftDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7D94E91A27DD20ACEDE85A521934DC2 /* TFFallLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E031D4C83299547854412D5153E6C9B3 /* Build configuration list for PBXNativeTarget "TFFallLayout" */;
+			buildPhases = (
+				77FBB57B9BD281966DF558FDDA05B56C /* Headers */,
+				410B175FC1C94A1A89F8B35DC9F39B6D /* Sources */,
+				29C4A63FA44BAC1A641B3BE3D2B829EC /* Frameworks */,
+				0A46083DE07DB9119DBA2455F1AB8AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFFallLayout;
+			productName = TFFallLayout;
+			productReference = 39938B6DAA31B16F799C73471CF7E9BE /* TFFallLayout */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 956EE97BCC8C4292E120B1D9C8156FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3BD9E63EB052BBB8915B3A9A82A3D20 /* JQQYBase */,
+				E91CB10AF111B6100FA67204C6004AD2 /* Pods-TFFallLayoutSwiftDemo */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+				F7D94E91A27DD20ACEDE85A521934DC2 /* TFFallLayout */,
+				C17AEFC79E770A2906EFAAB1A3757406 /* Then */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078A6474573578AC876FCB45C7F6C320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A46083DE07DB9119DBA2455F1AB8AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC8FC932CAA340C341F8C72D3E53AC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BAF787D83C4851916418A099F4BD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E92B80D89892192BEF381721E2C61C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F7CF393A2D6511D69351DF45639AF71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4000FAAE9D2A4109D241E59A44E5C0F8 /* Constraint.swift in Sources */,
+				5BBC0BF7A78DD8086A906DAE7095C8D0 /* ConstraintAttributes.swift in Sources */,
+				AAEF7C327A37AE82E6E99FE7C1CFE8C7 /* ConstraintConfig.swift in Sources */,
+				7F7D8617C4A75CD1B2650544D5CE0DF3 /* ConstraintConstantTarget.swift in Sources */,
+				E5ADBAD70598C5074CFB29D1327E316B /* ConstraintDescription.swift in Sources */,
+				2007794B2F848A117D7F0C718A2CA5E4 /* ConstraintDirectionalInsets.swift in Sources */,
+				54A6F52E160DB5A6B2CA060B633A3C4E /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				E9FF6532CBBF0FEAF554C2FA2E37A84B /* ConstraintDSL.swift in Sources */,
+				46B902A363502E6D1EE75B8BB494C964 /* ConstraintInsets.swift in Sources */,
+				07DCA47A45D1E8F255543D4291CA2FC1 /* ConstraintInsetTarget.swift in Sources */,
+				24AC98413F7C696ABA8420E4DCEE5BCE /* ConstraintItem.swift in Sources */,
+				6EAD64AF0CC465A6CBE17D75B9E0BF06 /* ConstraintLayoutGuide.swift in Sources */,
+				62D46E51CFBFCF47E718D525DE9052A1 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				3C2D5662B75F93BB85982D2A7F407B3B /* ConstraintLayoutGuideDSL.swift in Sources */,
+				E37507DC0F6C6843CEC059BF0801DB9E /* ConstraintLayoutSupport.swift in Sources */,
+				CC7F0C05D6539B206B2B662BBF9C20DA /* ConstraintLayoutSupportDSL.swift in Sources */,
+				1847148475BF1C88E05EDBA0E42B4289 /* ConstraintMaker.swift in Sources */,
+				B99905196D7702BBC92B3FA77BAA167E /* ConstraintMakerEditable.swift in Sources */,
+				CC403B7A0D15F044E3DB79657411C908 /* ConstraintMakerExtendable.swift in Sources */,
+				DB70FC523091F98BBECD08AD4830EC7F /* ConstraintMakerFinalizable.swift in Sources */,
+				673B226C3A9C999953280BA0DE1D64C2 /* ConstraintMakerPrioritizable.swift in Sources */,
+				185071383A97FF3B0AB3A6BA3DBE93AD /* ConstraintMakerRelatable.swift in Sources */,
+				89AF34744FC0E864EBA65923BD813E97 /* ConstraintMakerRelatable+Extensions.swift in Sources */,
+				E51C2A581891BF36150AC97E3539562E /* ConstraintMultiplierTarget.swift in Sources */,
+				0B25CA2F5361A56055144D6419D44A7E /* ConstraintOffsetTarget.swift in Sources */,
+				CE6FB0D5BACA88218558C11105402D78 /* ConstraintPriority.swift in Sources */,
+				2CF21A36DC07B510623D27FAF81930B6 /* ConstraintPriorityTarget.swift in Sources */,
+				D545D171293676CDA00A97DDF469E502 /* ConstraintRelatableTarget.swift in Sources */,
+				5B3BF7E91A565D2AFD4AD1007A1A149F /* ConstraintRelation.swift in Sources */,
+				C5863978B8B1B4DB8A43E494F18DFA3F /* ConstraintView.swift in Sources */,
+				8672992AE291DA67E59980FBA775D87C /* ConstraintView+Extensions.swift in Sources */,
+				21D979BA3147F9FB78CCB67FEB87659C /* ConstraintViewDSL.swift in Sources */,
+				A08E79E80344A7F020431C26074DFC00 /* Debugging.swift in Sources */,
+				8E1F48B58976E528DB0F271FC32FC8FB /* LayoutConstraint.swift in Sources */,
+				55BD16F3BF21FA4EEED47A21E94B352B /* LayoutConstraintItem.swift in Sources */,
+				471778AC702E636BEB3291CB30E87010 /* SnapKit-dummy.m in Sources */,
+				51A2D5FF9CA6641707E6D258C1D85CA3 /* Typealiases.swift in Sources */,
+				CDC79E1C2AC1CCAD36CE24B1AA4C934F /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7B49870CB5E0102EA08EABDE4A12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4070810D05E012E06B83090D7CF4F9DA /* JQQYBase-dummy.m in Sources */,
+				0B36D0B8C82A98D052213BF9D1BFD10E /* JQQYBaseCellAdapter.swift in Sources */,
+				98D1CCAEB0442C65937DB6F5ACEEC021 /* JQQYBaseCollectionViewCell.swift in Sources */,
+				2640074C6A8C491161DC5A3983EB0913 /* JQQYBasePresenter.swift in Sources */,
+				784C636C3594129666038BD6939D7DC4 /* JQQYBaseViewController.swift in Sources */,
+				BBDE1278C28662E7C7F258B5E9838ECB /* JQQYBaseViewModel.swift in Sources */,
+				BE950AF3A7E3005D0D60226B50AEFA92 /* JQQYCellItemView.swift in Sources */,
+				FFBD490CC01A6852AEE3F1830BF5E073 /* JQQYProjectFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410B175FC1C94A1A89F8B35DC9F39B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBD702700F7BDE6B29154D020B366FC /* TFCollectionReusableViewItem.m in Sources */,
+				17CD3A0251BCACA3CF50BD4DB7446694 /* TFCollectionViewBaseAdaptor.m in Sources */,
+				FC7B13A996C6346C76263FA877BC3658 /* TFCollectionViewCell.m in Sources */,
+				3A6361CA86FE5D5F5B3F3789B92D040E /* TFCollectionViewConstant.m in Sources */,
+				EBEB116FD3C9FACA87897DEDAFB4C5BE /* TFCollectionViewSectionItem.m in Sources */,
+				DBE24E2827467CB3654AD0052721A8E4 /* TFFallEmptyHeaderFooterCell.m in Sources */,
+				490ADCA6E3818A775E8494AA596D0EF5 /* TFFallEmptyHeaderFooterItem.m in Sources */,
+				F1B8A4516C40195F37D9EA9C8EFEC30A /* TFFallLayout.m in Sources */,
+				FCA0B937BF2F101F41F42736BB4268A0 /* TFFallLayout-dummy.m in Sources */,
+				EE86099DB3386BBD28658000351C4DA9 /* TFFallLayoutAdaptor.m in Sources */,
+				56C51E62D4E57984D7941CD4F24F6C6A /* TFFallLayoutBackground.m in Sources */,
+				B40C0C4BC2267FC0C437C491B524631A /* TFFallLayoutColumn.m in Sources */,
+				08CF4E11D09EEB0C789344607010EDB9 /* TFFallLayoutCompositor.m in Sources */,
+				59A4CB8A5F10E739A3E1811845A60742 /* TFFallLayoutConfiguration.m in Sources */,
+				29C93046CB2B0E56EE1937CAD1A17466 /* TFFallLayoutFlowSectionItem.m in Sources */,
+				8F4485ACD18A96FF64E050DA82B594B1 /* TFFallLayoutFooter.m in Sources */,
+				B8B3732130B3C8AA991A8FFB370210AE /* TFFallLayoutHeader.m in Sources */,
+				93053C106F5158805EEDD9C51023656E /* TFFallLayoutLinkageObject.m in Sources */,
+				5EE360F8AAAD1DB90FD402770CC5D52E /* TFFallLayoutRender.m in Sources */,
+				E1815BE172CB9870B4F80A6C18C746F4 /* TFFallLayoutSection.m in Sources */,
+				C8DB6DD29CA7B35B484DA723A526818E /* TFFallLayoutSectionBaseItem.m in Sources */,
+				3FF5CCEA60B4A26FDE24D8387974FBC7 /* TFFallLayoutSectionItem.m in Sources */,
+				9DBCDD9CB92542ADF2227CE7B3A637D1 /* TFFallLayoutStick.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D196CBB751C6905636AB3DABC48AC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1C3EC560BD0B39D46F13D36CAF0C45 /* Then.swift in Sources */,
+				F09618F13D5619AED34A839C7B3AEB64 /* Then-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9CC65CAD2A9E6E8D5A4C3BF97C3DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7928BC2A452F4374A9F089BF751EA6A8 /* Pods-TFFallLayoutSwiftDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33C847B68B325AA79C0501CB5CF66E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JQQYBase;
+			target = E3BD9E63EB052BBB8915B3A9A82A3D20 /* JQQYBase */;
+			targetProxy = C870ADA97D1898EA36882D0DCE7B587E /* PBXContainerItemProxy */;
+		};
+		34D2AA44D1C049D6D00D563B09D5506A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TFFallLayout;
+			target = F7D94E91A27DD20ACEDE85A521934DC2 /* TFFallLayout */;
+			targetProxy = 81E9864DCA78EB21A832EDC002AF28E2 /* PBXContainerItemProxy */;
+		};
+		5C0F4CF6E3883EC60B8DE0792FC82C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Then;
+			target = C17AEFC79E770A2906EFAAB1A3757406 /* Then */;
+			targetProxy = 530F15BEACCB685581C554EE01D3E3F4 /* PBXContainerItemProxy */;
+		};
+		64820F5F5D51C0959DE7EF111CCBCAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TFFallLayout;
+			target = F7D94E91A27DD20ACEDE85A521934DC2 /* TFFallLayout */;
+			targetProxy = 1D506C3B7BA430A7263597396822DA69 /* PBXContainerItemProxy */;
+		};
+		68CEAF7AE49EFB97E0DC4FA7EE213C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 6A5EEA7B269656650231B4D62416AAF9 /* PBXContainerItemProxy */;
+		};
+		97BBE435BFA91326779593AAC7B584D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 1225AD781329459176E851075C875373 /* PBXContainerItemProxy */;
+		};
+		B123A22CB1AB6A66512B249F2B8ED41E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Then;
+			target = C17AEFC79E770A2906EFAAB1A3757406 /* Then */;
+			targetProxy = 27D984A1AA92EB9BA47AAC77C17F50BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		072E357177C40511153E5DFF7C147C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E583CCB6359580FFEC4682F45EA3D662 /* Pods-TFFallLayoutSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TFFallLayoutSwiftDemo/Pods-TFFallLayoutSwiftDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TFFallLayoutSwiftDemo/Pods-TFFallLayoutSwiftDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		122600B5337379F9097DCA2FA0D42ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9549360EB65BF306F99CE357404BE3FC /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		144CB476FAC187045501F9FDC8E74BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC09DDE7D9CC5F72BDA81A939CF4B6B1 /* TFFallLayout.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TFFallLayout/TFFallLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFFallLayout/TFFallLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TFFallLayout/TFFallLayout.modulemap";
+				PRODUCT_MODULE_NAME = TFFallLayout;
+				PRODUCT_NAME = TFFallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22E6222FC9D22BE895E2197B4EA9C32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9874FFC3A4D09EB95F092930D88209D5 /* Then.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AD699A2461C653B1A402CDA175B60A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B24C757F48B99E7226C23C0C48513B /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C8933FE6580358D9998961402736251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD2B432A3C448C009605B837AF1B27D8 /* Pods-TFFallLayoutSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TFFallLayoutSwiftDemo/Pods-TFFallLayoutSwiftDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TFFallLayoutSwiftDemo/Pods-TFFallLayoutSwiftDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37A7DCF892D5BF522EE2661B9D3E6FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34837F7DAB5FD04EF5813C273C1104B6 /* JQQYBase.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JQQYBase/JQQYBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JQQYBase/JQQYBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JQQYBase/JQQYBase.modulemap";
+				PRODUCT_MODULE_NAME = JQQYBase;
+				PRODUCT_NAME = JQQYBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CA409170097DD89201B289EB511AD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D50A5398576C73ED827E625ABD13A338 /* JQQYBase.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JQQYBase/JQQYBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JQQYBase/JQQYBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JQQYBase/JQQYBase.modulemap";
+				PRODUCT_MODULE_NAME = JQQYBase;
+				PRODUCT_NAME = JQQYBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF948DB7FDD6E0AB4DBDF45146FDD083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1834BF6BDC7806916AFC8F886D53FC3 /* TFFallLayout.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TFFallLayout/TFFallLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFFallLayout/TFFallLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TFFallLayout/TFFallLayout.modulemap";
+				PRODUCT_MODULE_NAME = TFFallLayout;
+				PRODUCT_NAME = TFFallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC336AF9E9F068046DE08D13A6E16B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825216AEBFFA77448257D1FF512F6342 /* Then.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DC728792F67AB818E0E69B3DD341D2A /* Build configuration list for PBXNativeTarget "Pods-TFFallLayoutSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072E357177C40511153E5DFF7C147C6F /* Debug */,
+				2C8933FE6580358D9998961402736251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D43F4653E7041A0BA458CC3C3B50726 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD699A2461C653B1A402CDA175B60A0 /* Debug */,
+				122600B5337379F9097DCA2FA0D42ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5125255DC14C9AE562348356168C0D7 /* Build configuration list for PBXNativeTarget "Then" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E6222FC9D22BE895E2197B4EA9C32A /* Debug */,
+				DC336AF9E9F068046DE08D13A6E16B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3726A93708D9FC68E975BF5F9F54B8 /* Build configuration list for PBXNativeTarget "JQQYBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA409170097DD89201B289EB511AD0E /* Debug */,
+				37A7DCF892D5BF522EE2661B9D3E6FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E031D4C83299547854412D5153E6C9B3 /* Build configuration list for PBXNativeTarget "TFFallLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF948DB7FDD6E0AB4DBDF45146FDD083 /* Debug */,
+				144CB476FAC187045501F9FDC8E74BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

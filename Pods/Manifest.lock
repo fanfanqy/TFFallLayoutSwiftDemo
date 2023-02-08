@@ -1,0 +1,32 @@
+PODS:
+  - JQQYBase (0.1.1):
+    - SnapKit
+    - TFFallLayout
+    - Then
+  - SnapKit (5.6.0)
+  - TFFallLayout (0.1.4)
+  - Then (3.0.0)
+
+DEPENDENCIES:
+  - JQQYBase
+  - SnapKit
+  - TFFallLayout
+  - Then
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SnapKit
+    - Then
+  https://github.com/fanfanqy/SelfGithubSpec.git:
+    - JQQYBase
+    - TFFallLayout
+
+SPEC CHECKSUMS:
+  JQQYBase: f6e6cc25d0759a73c77e1734f181944dd64f2773
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  TFFallLayout: e4e5137454ca3f87f04c0a8345c18c17c450fee7
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+
+PODFILE CHECKSUM: 347c4bf05e6997df87d859c141bdf83acbbc1471
+
+COCOAPODS: 1.11.3

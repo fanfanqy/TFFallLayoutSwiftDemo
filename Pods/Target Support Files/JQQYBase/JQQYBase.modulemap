@@ -1,0 +1,6 @@
+framework module JQQYBase {
+  umbrella header "JQQYBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
